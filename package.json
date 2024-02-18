@@ -1,0 +1,19 @@
+{
+  "name": "week5b",
+  "version": "1.0.0",
+  "description": "introduction to tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tailwindcss -i ./front.css -o ./styles/my.css --watch"
+  },
+  "keywords": [
+    "css",
+    "html"
+  ],
+  "author": "promise",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
